@@ -1,0 +1,7 @@
+p, admin, /secure/users/add, POST
+p, admin, /secure/users/list, GET
+p, staff, /secure/users/list, GET
+
+g, jane, admin
+g, bill, staff
+g, romeo, staff
